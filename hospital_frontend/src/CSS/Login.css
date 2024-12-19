@@ -1,0 +1,151 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&family=Poppins:wght@600&display=swap');
+
+  .form {
+    position: absolute;
+    top:65%;
+    left: 110%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 70%;
+  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-color: brown;
+    
+
+    
+    
+  }
+  
+  .form h1 {
+    font-size: 2rem;
+    text-align: start;
+    width: 80%;
+    margin-bottom: 1rem;
+    color: rgb(43, 20, 175);
+    font-family: 'Kanit', sans-serif;
+  }
+  
+  .form-inputs {
+    margin-bottom: 0.5rem;
+    width: 80%;
+    border-color: rgb(17, 17, 17);
+    font-size: 1.5rem;
+    
+  }
+  
+
+  
+  .form-label {
+    display: inline-block;
+    font-size: 2rem;
+    margin-bottom: 6px;
+    color: #fff;
+    width: 80%;
+    font-family: 'Kanit', sans-serif;
+    
+  }
+  
+  .form-input {
+    display:block;
+    padding-left: 20px;
+    outline:rgb(17, 17, 17);
+    border-radius: 6px;
+    height: 40px;
+    width: 35%;
+    border-color: rgb(38, 104, 204);
+    margin-top: 10px;
+    
+    
+  }
+  
+  .form-input::placeholder {
+    color:darkgrey;
+    font-size: 0.8rem;
+    
+  }
+  
+  .form-input-btn-one {
+
+    width: 9.5cm;
+    height: 1.3cm;
+    margin-top: 20px;
+    margin-left: -5px;
+    font-family: 'Kanit', sans-serif;
+    border-radius: 10px;
+    background: linear-gradient(
+    
+      90deg,
+      rgb(39, 176, 255) 0%,
+      rgb(0, 232, 236) 100%
+    );
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 1.5rem;
+  }
+  
+  .form-input-btn-one:hover {
+    cursor: pointer;
+    background: linear-gradient(
+      90deg,
+      rgb(39, 143, 255) 0%,
+      rgb(12, 99, 250) 100%
+    );
+    transition: all 0.4s ease-out;
+  }
+  
+ .input-h-five{
+   
+  
+  margin-right: 1070px;
+  font-weight: bold;
+  font-size: 19px;
+     
+     
+ } 
+
+ @media screen and (max-width: 1050px) {
+   
+  .container-log{
+    grid-gap: 5rem;
+  }
+ }
+  
+ @media screen and (max-width: 1000px) {
+   
+    form{
+        width: 290px;
+    }
+    form h1{
+      font-size: 2.4rem;
+      margin: 8px 0;
+
+    
+    }
+    .lock-door{
+      width: 400px;
+    }
+    .form-input-btn-one{
+
+      width: 4cm;
+    }
+   
+  }
+
+
+  @media screen and (max-width: 900px) {
+            .container-log{
+              justify-content: center;
+            }
+
+  }
+ 
+  
+    
+
+
+    
+ 

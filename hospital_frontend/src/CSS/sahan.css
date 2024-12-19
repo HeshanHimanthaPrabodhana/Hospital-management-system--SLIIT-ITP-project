@@ -1,0 +1,93 @@
+input[type=submit] {
+    background-color: #0080c0;
+    color: white;
+    padding: 18px 720px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+  }
+  
+  
+  input[type=submit]:hover {
+    background-color: #0080c0;
+  }
+  
+  
+  .container {
+    border-radius: 5px;
+    background-color: #ffffff;
+  
+  }
+  
+  table{
+    background-color: #d2ecf8;
+    width: 50px;
+    font-size: 20px;
+  }
+  
+  #front{
+    background-color: #b9e4f8;
+  }
+  
+ 
+  
+  .sendData{
+    background-color: #b9e4f8;
+  }
+  
+  
+  
+  
+  
+  /* more adding css*/
+  
+  .edit {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 1px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  .delete {
+    background-color: #d80d0d;
+    border: none;
+    color: white;
+    padding: 1px 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  .edit:hover {
+    background-color: #06ff0e;
+    color: white;
+  }
+  
+  .delete:hover {
+    background-color: #420412;
+    color: white;
+  }
+  
+  #tableA{
+     
+      border: 30px solid #ddd;
+      text-align: left;
+    
+  }
+  .search{
+      margin-left: 90px;
+  }
+  
+ 
+  
+  

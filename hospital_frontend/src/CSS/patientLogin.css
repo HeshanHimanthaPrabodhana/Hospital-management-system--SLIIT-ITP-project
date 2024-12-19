@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&family=Poppins:wght@600&display=swap');
+  
+    
+  
+   
+  
+    
+    .form-patientLogin {
+      position: absolute;
+      top:55%;
+      left: 87%;
+      transform: translate(-50%, -50%);
+      width: 60%;
+      height: 80%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      
+  
+      
+      
+    }
+    
+    .form-patientLogin h1 {
+      font-size: 2rem;
+      text-align: start;
+      width: 80%;
+      margin-bottom: 1rem;
+      color: rgb(43, 20, 175);
+      font-family: 'Kanit', sans-serif;
+    }
+    
+    .form-inputs-patientLogin {
+      margin-bottom: 0.5rem;
+      width: 80%;
+      border-color: rgb(17, 17, 17);
+      font-size: 1.5rem;
+      
+    }
+    
+    .form-inputs p {
+      font-size: 0.8rem;
+      margin-top: 0.5rem;
+      color: #f00e0e;
+    }
+    
+    .form-label-patientLogin {
+      display: inline-block;
+      font-size: 2rem;
+      margin-bottom: 6px;
+      color: #fff;
+      
+    }
+    
+    .form-input-patientLogin {
+      display: block;
+      padding-left: 20px;
+      outline:rgb(17, 17, 17);
+      border-radius: 6px;
+      height: 40px;
+      width: 50%;
+      border-color: rgb(38, 104, 204);
+      margin-top: 10px;
+      
+      
+    }
+    
+    .form-input-patientLogin::placeholder {
+      color:darkgrey;
+      font-size: 0.8rem;
+      
+    }
+    
+    .form-input-btn {
+      width: 45%;
+      height: 50px;
+      margin-top: 30px;
+      margin-right: 320px;
+      border-radius: 10px;
+      font-family: 'Kanit', sans-serif;
+      background: linear-gradient(
+      
+        90deg,
+        rgb(39, 176, 255) 0%,
+        rgb(0, 232, 236) 100%
+      );
+      outline: none;
+      border: none;
+      color: #fff;
+      font-size: 1.5rem;
+    }
+    
+    .form-input-btn:hover {
+      cursor: pointer;
+      background: linear-gradient(
+        90deg,
+        rgb(39, 143, 255) 0%,
+        rgb(12, 99, 250) 100%
+      );
+      transition: all 0.4s ease-out;
+    }
+    
+   .form-input-forget_password{
+       color: rgb(7, 51, 100);
+       margin-right: 13cm;
+       font-size: 19px;
+       font-weight: bold;
+   } 
+    
+   .form-input-account{
+    color: rgb(7, 51, 100);
+    margin-right: 9.5cm;
+    font-size: 19px;
+    font-weight: bold;
+   }
+  
+    
+      
+  
+  
+      
+    
